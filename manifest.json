@@ -1,0 +1,12 @@
+{
+    "name": "remove lgbt logo from mdn",
+    "description": "Remove the lgbt logo from mdn",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+          "matches": ["https://developer.mozilla.org/*"],
+          "js": ["content.js"]
+        }
+      ]
+}
